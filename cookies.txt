@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.budgetvanlines.com	TRUE	/	FALSE	1999999999	ZF2_SESSION	164uakauckp9scmsg3sojdhk9g
+.bing.com	TRUE	/	FALSE	1999999999	MUID	09BCD4011CF7619A2CD7C65A1D3060F4
+bat.bing.com	TRUE	/	FALSE	1999999999	SameSite	None
+bat.bing.com	TRUE	/	FALSE	1999999999	Priority	High
+
