@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@font-face {
+   font-family: 'Open Sans Light';
+   font-style: normal;
+   font-weight: 300;
+   src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    /*background: #D8D8D8;
+    padding: 20px;*/
+}
+
+.main-container a,
+.main-container button,
+.main-container label {
+    text-decoration: none !important;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.main-container input {
+    float: left;
+    width: 100%;
+    height: 47px;
+    background: #fff;
+    border: 1px solid #b5b5b5;
+    box-shadow: inset 1px 1px 5px 0 rgba(181,181,181,.75);
+    border-radius: 7px;
+    line-height: 47px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 8px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.main-container .btn {
+    float: left;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 11px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.66px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 30px;
+    background: #f5a623;
+}
+
+.main-container .exit {
+    float: left;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 11px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: 1px solid #EB440E;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EB440E;
+    letter-spacing: 0.66px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.main-container .form-container .btn {
+    width: 160px;
+    margin: 10px calc((100% - 160px)/2) 0;
+    font-size: 20px;
+}
+
+
+.main-container input[type=tel] {
+    text-align: center;
+}
+
+.main-container input[type=number]::-webkit-inner-spin-button,
+.main-container input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.main-container ::-webkit-input-placeholder {
+    color: #B0B0B0;
+}
+
+.main-container ::-moz-placeholder {
+    color: #B0B0B0;
+}
+
+.main-container :-ms-input-placeholder {
+    color: #B0B0B0;
+}
+
+.main-container :-moz-placeholder {
+    color: #B0B0B0;
+}
+
+.main-container .error input {
+    border: 2px solid red !important;
+    color: red !important; 
+}
+
+.main-container input.error {
+    border: 2px solid red !important;
+    color: red !important; 
+}
+
+.main-container input.error::-webkit-input-placeholder {
+    color: #F00 !important;
+}
+
+.main-container input.error::-moz-placeholder {
+    color: #F00 !important;
+}
+
+.main-container input.error:-ms-input-placeholder {
+    color: #F00 !important;
+}
+
+.main-container input.error:-moz-placeholder {
+    color: #F00 !important;
+}
+
+.main-container .full-width {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.main-container {
+    float: left;
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #030303;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-container p {
+    font-size: 13px;
+    color: #9B9B9B;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.main-container .thank-you {
+    display: none;
+}
+
+.main-container .thank-you p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main-container .thank-you .btn {
+    width: 160px;
+    margin: 0 calc((100% - 160px)/2) 0;
+    font-size: 20px;
+}
+
+
+/*== | Popup CSS | ==================================*/
+
+.main-container .popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999 !important;
+}
+
+.main-container .popup-inner {
+    width: 86%;
+    padding: 30px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    background: #fff;
+    z-index: 9999;
+}
+
+.main-container .popup-inner .content {
+    height: 80vh;
+    overflow: auto;   
+    padding: 10px 30px;
+}
+
+.main-container .popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+    background: url(../images/x.html) no-repeat;
+    background-size: cover;
+    z-index: 9999;
+}
+
+.main-container .main-title {
+    font-size: 22px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-container .privacy_policy p {
+    display: block;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9B9B9B;
+    line-height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.main-container .privacy_policy ul {
+    padding-bottom: 15px;
+}
+
+.main-container .privacy_policy ul li {
+    font-size: 14px;
+    color: #CCCCCC;
+    line-height: 18px;
+}
+.main-container .outer .title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    display: block;
+    line-height: auto;
+    padding: 10px 0 !important;
+}
+
+
+@media(min-width:770px) {
+    
+    .main-container {
+        width: 600px;
+        margin: 0 calc((100% - 600px)/2);
+    }
+    
+    .main-container .btn,
+    .main-container .exit {
+        width: 60%;
+        margin: 0 20% 11px;
+    }
+    
+    .main-container .form-container {
+        width: 400px;
+        margin: 0 calc((100% - 400px)/2);
+    }
+    
+}
