@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="69px" height="67px" viewBox="0 0 69 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.341176471   0 0 0 0 0.764705882   0 0 0 0 0.952941176  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="61.4666667 58.9872614 61.4666667 0 0 0 0 58.9872614"></polygon>
+    </defs>
+    <g id="BVL-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-35" transform="translate(-684.000000, -752.000000)">
+            <g id="Page-1" filter="url(#filter-1)" transform="translate(688.000000, 754.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M8.1554,25.0173409 L20.9334,34.3540909 C21.6347333,34.8663182 21.9280667,35.7741136 21.6600667,36.6027955 L16.7794,51.7101477 L29.5580667,42.3733977 C30.2587333,41.8611705 31.2087333,41.8611705 31.9087333,42.3733977 L44.6874,51.7101477 L39.8067333,36.6027955 C39.5387333,35.7741136 39.8320667,34.8663182 40.5327333,34.3540909 L53.3114,25.0173409 L37.5167333,25.0173409 C36.6500667,25.0173409 35.8820667,24.4561705 35.6140667,23.6274886 L30.7334,8.52080682 L25.8527333,23.6274886 C25.5854,24.4561705 24.8174,25.0173409 23.9507333,25.0173409 L8.1554,25.0173409 Z M12.9754,58.9872614 C12.5627333,58.9872614 12.1500667,58.8592045 11.8000667,58.6030909 C11.0987333,58.0908636 10.8054,57.1830682 11.0734,56.3543864 L17.4067333,36.749625 L0.824733333,24.6331705 C0.1234,24.1209432 -0.169933333,23.2131477 0.0980666667,22.3844659 C0.3654,21.5557841 1.1334,20.9946136 2.00006667,20.9946136 L22.4974,20.9946136 L28.8314,1.38985227 C29.0994,0.561170455 29.8667333,0 30.7334,0 C31.6000667,0 32.3680667,0.561170455 32.6354,1.38985227 L38.9694,20.9946136 L59.4667333,20.9946136 C60.3334,20.9946136 61.1007333,21.5557841 61.3687333,22.3844659 C61.6367333,23.2131477 61.3434,24.1209432 60.6420667,24.6331705 L44.0594,36.749625 L50.3934,56.3543864 C50.6614,57.1830682 50.3680667,58.0908636 49.6674,58.6030909 C48.9667333,59.1146477 48.0167333,59.1146477 47.3160667,58.6030909 L30.7334,46.4866364 L14.1507333,58.6030909 C13.8007333,58.8592045 13.3880667,58.9872614 12.9754,58.9872614 L12.9754,58.9872614 Z" id="Fill-1" fill="#57C3F3" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
